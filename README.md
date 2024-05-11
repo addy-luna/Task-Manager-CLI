@@ -17,3 +17,7 @@ We leverage the following npm packages to power various aspects of the To-Do CLI
     
 -   **ora:**  
     Ora adds a touch of elegance to the terminal interface by displaying nice spinning animations, providing visual feedback to users during long-running tasks.
+
+## Example of this tool in action!
+
+![Example of CLI tool](./img/Task-manager-CLI-EX.gif)
