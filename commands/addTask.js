@@ -73,10 +73,16 @@ export default async function addTask() {
 
         // Stopping the spinner and displaying the success message
         spinner.stop()
+        console.log('_|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_   ')
+        console.log(' |       |       |       |       |       |       |       |       |    ')
         console.log(
             chalk.greenBright('Created the todos!')
         )
-
+        console.log(
+            chalk.magentaBright('Make sure to break down tasks step by step -- You got this!')
+        )
+        console.log('_|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_     _|_   ')
+        console.log(' |       |       |       |       |       |       |       |       |    ')
         // disconnecting the database
         await disconnectDB()
     } catch (error) {
